@@ -1,0 +1,60 @@
+.box-contain{
+    height: 1200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+
+    #img-cx {
+        padding: 10px;
+    }
+
+    #informations-cx {
+        h1{
+            font-size: 50px;
+        }
+
+        hr {
+            margin-bottom: 30px;
+        }
+
+        p{
+            font-size: 25px;
+        }
+
+        form input[type=number] {
+            padding: 15px;
+            margin: 0px 5px;
+        }
+
+        form input[type=submit] {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+       .btncx:hover {
+        background-color: bisque;
+       }
+
+       #saque {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+       }
+
+       #saque:hover {
+        background-color: bisque;
+       }
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+}
